@@ -39,4 +39,12 @@ export const cards = {
     health: 2,
     img: "/images/674E4AA0-FEEC-433C-BCEF-BC493286B74E.jpg",
   },
+  aldor: {
+    name: "Aldor",
+    role: "Tank",
+    region: "Solaris",
+    power: 4,
+    health: 6,
+    img: "/images/BA6E8653-C97F-4E0E-8A6A-CC3063F5F620.jpg",
+  },
 };

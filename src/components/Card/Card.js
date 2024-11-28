@@ -1,12 +1,12 @@
-const Card = ({ name, image, role, region, power, health }) => {
+const Card = ({ name, img, role, region, power, health }) => {
   return (
     <div className="card">
-      <h2>Name</h2>
-      <h3 className="power">Power</h3>
-      <h3 className="health">Health</h3>
-      <img className="role-icon"></img>
-      <img className="card-img"></img>
-      <p>Region</p>
+      <h2>{name}</h2>
+      <h3 className="power">Power: {power}</h3>
+      <h3 className="health">Health: {health}</h3>
+      <h3>Role: {role}</h3>
+      <h3>Region: {region}</h3>
+      <img className="card-img" src={img} />
     </div>
   );
 };
