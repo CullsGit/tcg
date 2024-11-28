@@ -1,3 +1,6 @@
+import Card from "../Card/Card";
+import { cards } from "../../cardData";
+
 const CardList = () => {
   return (
     <>
