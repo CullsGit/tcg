@@ -4,20 +4,22 @@ import { cards } from "../../cardData";
 
 const CardList = () => {
   return (
-    <div className="cards-layout">
-      <h1>Card List</h1>
-      {Object.entries(cards).map(([key, card]) => (
-        <Card
-          key={key}
-          name={card.name}
-          role={card.role}
-          region={card.region}
-          power={card.power}
-          health={card.health}
-          img={card.img}
-        />
-      ))}
-    </div>
+    <>
+      <h1 className="card-list-title">Card List</h1>
+      <div className="cards-layout">
+        {Object.entries(cards).map(([key, card]) => (
+          <Card
+            key={key}
+            name={card.name}
+            role={card.role}
+            region={card.region}
+            power={card.power}
+            health={card.health}
+            img={card.img}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 
