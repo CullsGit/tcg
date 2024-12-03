@@ -1,9 +1,10 @@
+import "./CardList.css";
 import Card from "../Card/Card";
 import { cards } from "../../cardData";
 
 const CardList = () => {
   return (
-    <>
+    <div className="cards-layout">
       <h1>Card List</h1>
       {Object.entries(cards).map(([key, card]) => (
         <Card
@@ -16,7 +17,7 @@ const CardList = () => {
           img={card.img}
         />
       ))}
-    </>
+    </div>
   );
 };
 
