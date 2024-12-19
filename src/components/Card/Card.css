@@ -24,40 +24,6 @@
   object-fit: contain;
 }
 
-.card h2 {
-  font-size: 1.5rem;
-  margin: 10px 0;
-  color: #333;
-}
-
-.card h3 {
-  font-size: 1rem;
-  margin: 5px 0;
-  color: #555;
-}
-
-.card .card-power {
-  color: #d9534f;
-  font-weight: bolder;
-}
-
-.card .card-health {
-  color: #5cb85c;
-  font-weight: bolder;
-}
-
-.card-support {
-  background-color: #b2d6aa;
-}
-
-.card-damage {
-  background-color: #e59090;
-}
-
-.card-tank {
-  background-color: #acb3ea;
-}
-
 @media (max-width: 1024px) {
   .card {
     flex: 0 1 calc(50% - 20px); /* Adjust to 50% width for smaller screens */
